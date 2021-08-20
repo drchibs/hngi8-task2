@@ -1,0 +1,5 @@
+//CLi
+console.log(`DENNIS RICHARD CHIBUIKE`);
+
+//GUI
+//alert(`DENNIS RICHARD CHIBUIKE`);
