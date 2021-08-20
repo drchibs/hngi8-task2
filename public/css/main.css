@@ -1,0 +1,222 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins", sans-serif;
+}
+label {
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.075em;
+	text-align: left;
+	display: block;
+	margin-bottom: 0.8em;
+	margin-top: 0.5em;
+}
+input {
+	height: 3rem;
+	width: 25rem;
+	border-radius: 1rem;
+	background: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(196, 196, 196, 1);
+}
+textarea {
+	width: 25rem;
+	height: 10rem;
+	background: #ffffff;
+	border: 1px solid #c4c4c4;
+	border-radius: 15px;
+}
+.primary-button {
+	background-color: rgba(0, 174, 255, 1);
+	border-radius: 1rem;
+	width: 6rem;
+	height: 3rem;
+	text-align: center;
+}
+.title {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.075em;
+}
+.contact-name {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 45px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.tomato {
+	color: rgba(249, 63, 63, 1);
+}
+.tomato-top {
+	color: rgba(249, 63, 63, 1);
+	text-transform: lowercase;
+	font-size: 0.9em;
+	letter-spacing: 0.15em;
+}
+.headline {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.875rem;
+	color: #000000;
+	opacity: 1;
+}
+
+.main-box {
+	height: auto;
+	padding: 2rem;
+	width: 65.813rem;
+	border-radius: 0px;
+	background: rgba(196, 196, 196, 0.1);
+}
+.lower-box {
+	height: auto;
+	padding: 2rem;
+	width: 65.813rem;
+	border-radius: 0px;
+	margin-top: 4rem;
+	background: rgba(196, 196, 196, 0.1);
+}
+
+.profile {
+	width: 19.875rem;
+	height: 19.5rem;
+	background: url("../images/v4_9.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	overflow: hidden;
+	border: 1rem solid #fff;
+	margin-bottom: 1rem;
+	/* position: absolute;
+  top:-10rem; */
+}
+.bio {
+	width: 19.875rem;
+	color: rgba(0, 0, 0, 1);
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.big-name {
+	color: rgba(249, 63, 63, 1);
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 54px;
+	/* identical to box height */
+
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin-top: 2.5rem;
+}
+
+.links {
+	width: 19.875rem;
+	color: rgba(0, 174, 255, 1);
+	font-family: Poppins;
+	font-size: 0.9rem;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 2rem;
+	letter-spacing: 0.075em;
+	text-align: left;
+	margin-top: 2rem;
+	text-transform: uppercase;
+}
+.stack {
+	font-size: 0.9rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2rem;
+	letter-spacing: 0.075em;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+	margin-top: 2rem;
+	text-transform: uppercase;
+}
+.summary {
+	width: 498px;
+	color: rgba(0, 0, 0, 0.800000011920929);
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 27px;
+	letter-spacing: 0.075em;
+	text-align: left;
+	margin-top: 1rem;
+	text-justify: auto;
+}
+
+.timeline {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.075em;
+	text-transform: lowercase;
+	color: #000000;
+	text-transform: uppercase;
+	margin-top: 4rem;
+}
+
+
+.content {
+	border-left: 3px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	letter-spacing: 0.05rem;
+}
+
+.link-out {
+	color: #00aeff;
+}
+.hngi {
+	width: 3.125rem;
+	height: 3.125rem;
+	background: url("../images/v5_87.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	overflow: hidden;
+	float: right;
+}
+
+.toast {
+	width: 100%;
+	height: 42px;
+	background: rgb(116, 236, 94);
+	opacity: 1;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+.toast-title {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.075em;
+	color: #ffffff;
+}
